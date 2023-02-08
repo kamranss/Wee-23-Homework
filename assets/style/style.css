@@ -26,8 +26,18 @@ body{
     background-color: white;
 }
 
-.main .form .login{
-    height: 100%;
+.login_container{
+    height: 600px;
     background-color: white;
+}
+.main .login{
+    height: 50%;
+    width: 100%;
+    background-color: white; 
+    margin-top: 30%;
+}
+
+.social{
+    margin-top: 30px;
 }
 
