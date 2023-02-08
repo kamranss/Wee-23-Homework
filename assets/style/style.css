@@ -15,22 +15,19 @@ body{
     background-color: whitesmoke;
 }
 
-/* .main .main_login{
-    margin-top: 10%;
-    margin-left: 80px;
-} */
+.login_content{
+    margin-top: 80%;
+}
 .image{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-/* .main form{
-    height: 600px;
-    background-color: white;
-}
-
 .login_container{
+    margin-top: 10%;
+}
+/* .main form{
     height: 600px;
     background-color: white;
 }
