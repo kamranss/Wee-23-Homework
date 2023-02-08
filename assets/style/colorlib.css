@@ -17,6 +17,7 @@ body{
 
 .main .main_login{
     margin-top: 10%;
+    margin-left: 80px;
 }
 
 .main .image{
@@ -25,4 +26,10 @@ body{
     background-size: cover;
 }
 
-/* $orange-500 */
+.btnn{
+background-color: rgba(228, 150, 5, 0.896);
+}
+
+.checkbox{
+    accent-color: orange  !important;
+}
