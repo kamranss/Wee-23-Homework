@@ -5,9 +5,14 @@
 }
 
 body{
-    height: 500vh;
+    /* width: 1380px;
+    height: 500vh; */
+    width: 100%;
+    height: 100%;
     font-family: myFirstFont;
 }
+
+
 
 @font-face {
     font-family: myFirstFont;
@@ -23,6 +28,9 @@ body{
 }
 .col-3{
     width: calc(100%*3/12);
+}
+.col-3_5{
+    width: calc(100%*3.8/12);
 }
 .col-4{
     width: calc(100%*4/12);
@@ -48,6 +56,9 @@ body{
 .col-11{
     width: calc(100%*11/12);
 }
+.col-11_5{
+    width: calc(100%*11.5/12);
+}
 .col-12{
     width: calc(100%*12/12);
 }
@@ -57,6 +68,11 @@ body{
 .df-c{
     display: flex;
     justify-content: center;
+}
+.df-c-a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .df-b{
     display: flex;
@@ -69,11 +85,15 @@ body{
 
 
 
+.container{
+    margin-left: 60px;
+}
 .nav{
     height: 60px;
     display: flex;
     justify-content: center;
     background-color: rgb(247, 244, 244);
+    margin-top: 40px;
   }
   .logo{
     margin-top: 5px;
@@ -82,6 +102,7 @@ body{
     color: rgb(117, 109, 109);
     font-size: 40px;
     text-decoration: none;
+    letter-spacing: 6px;
   }
   .menu{
     display: flex;
@@ -96,7 +117,7 @@ body{
   .menu_links ul li a{
     text-decoration: none;
     color: rgb(19, 12, 12);
-    font-size: 15px;
+    font-size: 12px;
   }
   .social_network_icons ul{
     display: flex;
@@ -114,13 +135,17 @@ body{
 
   #title{
     margin-top: 100px;
-    margin-left: 40px;
+  }
+  #title h1{
+    font-size: 50px;
+  }
+  .menu_links_2{
+    height: 50px;
   }
   .menu_links_2 ul{
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
-    margin-left: 40px;
   }
   
   .menu_links ul li, .menu_links_2 ul li{
@@ -133,18 +158,51 @@ body{
     font-size: 13px;
   }
 
-  .cards{
-    height: 200vh;
+  #cards{
+    height: 1000px;
   }
   .cards_container{
-    height: 50%;
+    height: 30%;
+    margin-left: 60px;
+    /* margin-top: 20px; */
   }
   
 .cards_container img{
-    height: 80%;
     width: 100%;
+    height: 450px;
 }
 .card_content{
-    height: 40%;
+    height: 20%;
+}
+
+.card_content h4{
+    font-size: 14px;
+    color: rgb(20, 18, 18);
+    font-weight: 400;
+    opacity: 0.9;
+    margin-top: 15px;
+}
+
+.card_content p{
+    font-size: 11px;
+    color: rgb(47, 44, 44);
+    font-weight: 300;
+    opacity: 0.9;
+    margin-top: 8px
+}
+
+#load_button{
+    margin-top: 100px;
+    height: 100px;
+    text-decoration: none;
+
+}
+.load_button a{
+    width: 200px;
+    height: 80%;
+    font-size: 15px;
+    background-color: rgb(217, 61, 61);
+    color: white;
+    text-decoration: none;
 }
 
