@@ -16,111 +16,161 @@ body{
 
 /* Grid Configurationx */
 .col-1{
-    width: calc(100%*1/12);
+  width: calc(100%*1/12);
 }
 .col-2{
-    width: calc(100%*2/12);
+  width: calc(100%*2/12);
 }
 .col-3{
-    width: calc(100%*3/12);
+  width: calc(100%*3/12);
+}
+.col-3_5{
+  width: calc(100%*3.8/12);
 }
 .col-4{
-    width: calc(100%*4/12);
+  width: calc(100%*4/12);
 }
 .col-5{
-    width: calc(100%*5/12);
+  width: calc(100%*5/12);
 }
 .col-6{
-    width: calc(100%*6/12);
+  width: calc(100%*6/12);
 }
 .col-7{
-    width: calc(100%*7/12);
+  width: calc(100%*7/12);
 }
 .col-8{
-    width: calc(100%*8/12);
+  width: calc(100%*8/12);
+}
+.col-8_5{
+  width: calc(100%*8.5/12);
 }
 .col-9{
-    width: calc(100%*9/12);
+  width: calc(100%*9/12);
 }
 .col-10{
-    width: calc(100%*10/12);
+  width: calc(100%*10/12);
 }
 .col-11{
-    width: calc(100%*11/12);
+  width: calc(100%*11/12);
+}
+.col-11_5{
+  width: calc(100%*11.5/12);
 }
 .col-12{
-    width: calc(100%*12/12);
+  width: calc(100%*12/12);
 }
 
 
 /* Display Flex */
+.df{
+  display: flex;
+}
 .df-c{
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+.df-c-a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .df-b{
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 .df-a{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 
 
+.container{
+  margin-left: 60px;
+}
 .nav{
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(247, 244, 244);
-  }
-  .logo{
-    margin-top: 5px;
-  }
-  .logo a{
-    color: rgb(117, 109, 109);
-    font-size: 40px;
-    text-decoration: none;
-  }
-  .menu{
-    display: flex;
-    justify-content: center;
-  }
-  .menu_links ul{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-  }
-  .menu_links ul li{
-    list-style: none; 
-  }
-  .menu_links ul li a{
-    text-decoration: none;
-    color: rgb(19, 12, 12);
-    font-size: 15px;
-  }
-  .social_network_icons ul{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-    
-  }
-  .social_network_icons ul li{
-    list-style: none;
-  }
-  .social_network_icons ul li i{
-    color: rgb(117, 109, 109);
-    font-size: 20px;
-  }
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(247, 244, 244); */
+  margin-top: 40px;
+}
+.logo{
+  margin-top: 5px;
+}
+.logo a{
+  color: rgb(117, 109, 109);
+  font-size: 40px;
+  text-decoration: none;
+  letter-spacing: 6px;
+}
+.menu{
+  display: flex;
+  justify-content: center;
+}
+.menu_links ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  list-style: none;
+}
 
+.menu_links ul li a{
+  text-decoration: none;
+  color: rgb(19, 12, 12);
+  font-size: 12px;
+}
+.social_network_icons ul{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  list-style: none;
+}
+.social_network_icons ul li{
+  list-style: none;
+}
+.social_network_icons ul li i{
+  color: rgb(117, 109, 109);
+  font-size: 20px;
+  text-decoration: none;
+}
 
-  
- 
   #categories{
-    height: 500px;
+    height: 600px;
   }
 
+  .categories_title_search{
+    height: 50px;
+    border: solid 1px rgb(237, 231, 231);
+  }
+  .categories_title_search_box{
+    margin-left: 30px;
+    /* margin-top: 12px; */
+    height: 100%;
+  }
+  .categories_title_search_box input{
+    opacity: 0.7;
+  }
+  .categories_title_search_box div{
+  margin-top: 15px;
+  height: 20px;
+  }
+  .serach_icon{
+    height: 20px;
+    opacity: 0.6;
+  }
+  .categories_title_list ul{
+    margin-top: 20px;
+    list-style: none;
+    line-height: 30px;
+    height: 150px;
+  }
+  .categories_title_list ul li{
+    color: rgb(155, 146, 146);
+    font-weight: 300;
+    font-size: 13px;
+  }
   .img_content,  .categories_title{
     height: 100%;
   }
@@ -136,7 +186,7 @@ body{
 
   .post_image{
     height: 50px;
-    
+
     /* width: 80px; */
   }
 
@@ -165,4 +215,15 @@ body{
  .post_content_details{
     position: absolute;
     right: 75px;
+ }
+
+ #creating_messages{
+  height: 100px;
+  margin-left: -15px;
+ }
+ .message_image{
+  height: 100%;
+  background-image: url(..//images/sendFlowers2.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
  }
