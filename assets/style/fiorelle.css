@@ -5,7 +5,7 @@
 }
 
 body{
-    height: 300vh;
+    width: 100%;
     font-family: myFirstFont;
 }
 
@@ -20,6 +20,9 @@ body{
 }
 .col-2{
   width: calc(100%*2/12);
+}
+.col-2_5{
+  width: calc(100%*2.5/12);
 }
 .col-3{
   width: calc(100%*3/12);
@@ -44,6 +47,9 @@ body{
 }
 .col-8_5{
   width: calc(100%*8.5/12);
+}
+.col-8_2{
+  width: calc(100%*8.2/12);
 }
 .col-9{
   width: calc(100%*9/12);
@@ -135,6 +141,9 @@ body{
   font-size: 20px;
   text-decoration: none;
 }
+#main_title p{
+  margin-top: 20px;
+}
 
   #categories{
     height: 600px;
@@ -218,7 +227,7 @@ body{
  }
 
  #creating_messages{
-  height: 100px;
+  height: 120px;
   margin-left: -15px;
  }
  .message_image{
@@ -227,3 +236,65 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
  }
+
+ .message_image .send_flowers{
+  font-size: 20px;
+ }
+ .message_image .start_now{
+  margin-top: 6px;
+  font-weight: 200;
+}
+
+#shirley{
+  margin-left: 60px;
+}
+.message_links ul li{
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
+  }
+.message_links ul li a{
+text-decoration: none;
+font-size: 12px;
+color: grey;
+}
+
+#occasion{
+  margin-left: 60px;
+  margin-top: 90px;
+}
+.occasion_image{
+  height: 600px;
+ 
+}
+.occasion_image img{
+  height: 100%;
+  width: 100%;
+}
+#vanderslam{
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+#unique{
+  height: 800px;
+  margin-left: 60px;
+  margin-top: 60px;
+}
+.unique_image{
+  height: 600px;
+}
+.unique_image img{
+  height: 100%;
+  width: 100%;
+}
+
+#bouquets{
+  height: 60px;
+  margin-left: 60px;
+}
+
+#footer{
+  padding-top: 2px;
+  margin-top: 60px;
+}
