@@ -294,7 +294,22 @@ color: grey;
   margin-left: 60px;
 }
 
-#footer{
-  padding-top: 2px;
-  margin-top: 60px;
+.icon_0{
+  position: absolute;
+  display: flex;
+  top: 58px;
+  right: 219px;
+  justify-content: center;
+  background-color: red;
+
+  border-radius: 50%;
+  height: 12px;
+  width: 12px;
 }
+
+.icon_0 span{
+  font-weight: 600;
+  font-size: 10px;
+  color: white;
+}
+
