@@ -1,0 +1,45 @@
+#footer{
+    background-color: rgb(255, 252, 243);
+    margin-top: 60px;
+    height: 420px;
+    padding-top: 2px;
+}
+.footer_box{
+    height: 60%;
+    margin-top: 60px;
+}
+#footer ul{
+     list-style: none;
+     line-height: 200%;
+}
+#footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+
+.footer_divide{
+    height: 20px;
+}
+.footer_border{
+    margin-top: 40px;
+    border-top: 1px solid rgb(236, 230, 230);
+    height: 10px;
+}
+.footer_icons{
+    height: 20px;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.footer_a a{ 
+    text-decoration: none;
+    font-size: 13px;
+    color: grey;
+}
+.payment{
+    width: 150px;
+}
+.payment ul li a i{
+    font-size: 30px;
+}
